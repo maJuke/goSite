@@ -2,15 +2,16 @@
   "name": "frontend",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.0"
+    "vue": "^2.7.16"
   },
   "devDependencies": {
     "vite": "^5.0.0",
-    "@vitejs/plugin-vue": "^4.2.3"
+    "vite-plugin-vue2": "^2.0.0",
+    "vue-template-compiler": "^2.7.16"
   }
 }

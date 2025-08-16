@@ -1,4 +1,6 @@
-import { createApp } from 'vue'
-createApp({
-  template: `<h1>Hello from Vue</h1>`
-}).mount('#app')
+import Vue from 'vue'
+import App from './App.vue'
+
+new Vue({
+  render: h => h(App)
+}).$mount('#app')
